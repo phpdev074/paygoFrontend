@@ -10,22 +10,25 @@ const DashboardComponent = () => {
           <div class="dashboard-menu-container">
           <div className="dashboard-menu">
                 <div className="dashboard-menu-box col-md-6">
-                   <h1> Total Jobs</h1> 
+                   <h1> User Approval Request </h1> 
                 </div>
                 <div className="dashboard-menu-box col-md-6">
-                    <h1> Active Jobs</h1>
+                    <h1> Loan Approval Request </h1>
                 </div>
                 <div className="dashboard-menu-box col-md-6">
-                    <h1> Total Users</h1>
+                    <h1> Total insurance</h1>
                 </div>
                 <div className="dashboard-menu-box col-md-6">
-                    <h1> Active Users</h1>
+                    <h1> Total Loan Approval</h1>
                 </div>
                 <div className="dashboard-menu-box col-md-6">
-                    <h1> Complete Jobs</h1>
+                    <h1> Total Enquiry</h1>
                 </div>
                 <div className="dashboard-menu-box col-md-6">
-                    <h1> Monthly Jobs</h1>
+                    <h1> Total Car Insurance</h1>
+                </div>
+                <div className="dashboard-menu-box col-md-6">
+                    <h1> Total Cars</h1>
                 </div>
           </div>
           </div>

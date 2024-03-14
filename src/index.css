@@ -91,7 +91,7 @@ code {
 .sideBarComponent{
   display: flex;
   flex-direction: column;
-  width:20%
+  width:30%
 }
 .dashboard-menu-container {
   max-height: calc(100vh - 40px); 
