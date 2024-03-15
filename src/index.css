@@ -164,16 +164,19 @@ code {
   display: flex;
   width: 100%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 3%;
+  height: 16vh;
 }
 .user-container  h1{
   font-weight: bold;
 }
 .user-search-container{
-  margin-right: 5%;
+  margin-left: 50%;
   margin-top: 1%;
   height: 7%;
   display: flex;
+  float :right;
 }
 .user-search-container button{
   margin-left: 5px;
@@ -182,10 +185,12 @@ code {
 .user-container {
   display: flex;
   justify-content: space-between;
+
+  flex-direction: column;
 }
 .user-header {
   display: flex;
-  align-items: center;
+  align-items: center; 
 }
 .inputTextUserSearchField
 {
@@ -194,38 +199,34 @@ code {
   margin-left: 5%;
   width: 80%;
   padding: 10px;
+ 
 }
 .search-button {
   display: flex;
   align-items: center;
 }
-
-/* PrivacyPolicy.css */
-
-.privacy-policy-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+.search-container
+{
+  display:flex;
+  flex-direction:row;
+}
+.user-table-data{
+  margin-top: 0px;
+  border-radius: 5px;
+}
+.user-logo {
+  width: 8%;
+  border-radius: 50%;
+  background-color: #e7eaef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.privacy-policy-container h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
 
-.privacy-policy-container h3 {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
+.user-logo > img {
+  max-width: 70%;
+  max-height: 70%;
 
-.privacy-policy-container p {
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-.last-updated {
-  font-style: italic;
-  margin-top: 20px;
-  color: #666;
+  border-radius: 50%; /* Ensure the image remains within the circular boundary */
 }
